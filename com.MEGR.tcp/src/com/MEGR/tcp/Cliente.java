@@ -25,7 +25,7 @@ public class Cliente {
 	 
 	         try{
 	        	 socket = new Socket(address,Integer.parseInt(argv[1])); //Se crea un objeto de tipo socket 
-	        	 													//para establecer una conexion por el puerto 6001
+	        	 													//para establecer una conexion por el puerto
 	         }catch(NumberFormatException nfe){
 	        	 System.err.println("El argumento argv[1] no es un numero");
 	        	 System.exit(1);

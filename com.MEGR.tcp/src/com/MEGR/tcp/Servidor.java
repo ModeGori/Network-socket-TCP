@@ -13,7 +13,7 @@ public class Servidor {
   try {
 	  //Abrimos una excepcion para el tratamiento de errores
       //Creamos un servidor 
-	  socket = new ServerSocket(6004); //Abre un socket en modo escucha en el puerto 6004
+	  socket = new ServerSocket(6837); //Abre un socket en modo escucha en el puerto 6004
       Socket socket_cli = socket.accept(); //Inicio. Se acepta la conexión.
 
      //Metodo de la clase socket para recibir datos
